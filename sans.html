@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Student portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="wrap topbar-inner">
+    <span class="topbar-name">Sanskar Shakya</span>
+    <nav class="nav" aria-label="Sections">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</div>
+
+<header class="cover">
+  <div class="wrap">
+    <h1>Sanskar Shakya
+      <span>A record of the projects I have built in school, what they were for, and what I picked up along the way.</span>
+    </h1>
+
+    <dl class="fields">
+      <div class="field"><dt>Studying</dt><dd>Computer Science</dd></div>
+      <div class="field"><dt>Year</dt><dd>Grade 12</dd></div>
+      <div class="field"><dt>School</dt><dd>Kathmandu Model College</dd></div>
+      <div class="field"><dt>Projects</dt><dd>4 and counting</dd></div>
+    </dl>
+  </div>
+</header>
+
+<main>
+  <section id="about">
+    <div class="wrap">
+      <h2>About me</h2>
+      <p class="lede">I am a student who likes making things that actually run. Most of what is here started as a class assignment and then kept going a little past what was asked for.</p>
+      <p>I work mostly with HTML, CSS and Python, and I am slowly getting comfortable with JavaScript. Outside class I read about how games are made and I help my school with its notice board website. I am looking for internships or any chance to build something real with other people.</p>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="wrap">
+      <h2>Projects</h2>
+
+      <article class="project">
+        <div class="project-meta">
+          <span class="tag">Computer Science</span>
+          <span class="term">Term 2, 2026</span>
+        </div>
+        <div>
+          <h3>Library book tracker</h3>
+          <p>A small desktop program that keeps track of which books our class library has lent out and warns when one is overdue. Built in Python with a Tkinter window and a plain text file for storage, so it runs on any school computer without installing anything.</p>
+          <p class="learned">What I learned: writing to a file is easy, but deciding what happens when two people edit it at once is the hard part.</p>
+          <div class="project-links">
+            <a href="#">See the code</a>
+            <a href="#">Read the write-up</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="project-meta">
+          <span class="tag">Science</span>
+          <span class="term">Term 1, 2026</span>
+        </div>
+        <div>
+          <h3>Air quality readings for our street</h3>
+          <p>For the science fair I logged dust levels outside the school gate every morning for six weeks and charted the results against traffic counts. The chart is drawn from the raw numbers in a spreadsheet, and the poster explains the method so another student can repeat it.</p>
+          <p class="learned">What I learned: six weeks of data is enough to see a pattern and nowhere near enough to prove a cause.</p>
+          <div class="project-links">
+            <a href="#">See the data</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="project-meta">
+          <span class="tag">Design</span>
+          <span class="term">Term 3, 2025</span>
+        </div>
+        <div>
+          <h3>School notice board website</h3>
+          <p>Our notices used to be taped to a wall and half of them fell off. I rebuilt them as a single page that teachers can update, with the newest notice at the top and a printable version for the wall anyway. Plain HTML and CSS, no framework.</p>
+          <p class="learned">What I learned: the people using it care far more about how fast it loads than how it looks.</p>
+          <div class="project-links">
+            <a href="#">Visit the site</a>
+            <a href="#">See the code</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="project-meta">
+          <span class="tag">Mathematics</span>
+          <span class="term">Term 2, 2025</span>
+        </div>
+        <div>
+          <h3>Prime number visualiser</h3>
+          <p>A page that draws primes in a spiral so you can see the diagonal lines they fall into. Made to go with a class presentation on why primes thin out as numbers grow.</p>
+          <p class="learned">What I learned: a picture explained the idea to my class in ten seconds, after two slides of notation had failed.</p>
+          <div class="project-links">
+            <a href="#">Try it</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="wrap">
+      <h2>What I can do</h2>
+      <ul class="skills">
+        <li>
+          <h3>Building web pages</h3>
+          <p>HTML and CSS by hand, including layouts that work on a phone.</p>
+        </li>
+        <li>
+          <h3>Programming</h3>
+          <p>Python for small tools and data work. Starting out with JavaScript.</p>
+        </li>
+        <li>
+          <h3>Working with data</h3>
+          <p>Collecting readings, cleaning them up in a spreadsheet, and charting the result.</p>
+        </li>
+        <li>
+          <h3>Explaining the work</h3>
+          <p>Write-ups, posters and class presentations that someone else can follow.</p>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="wrap">
+      <h2>Get in touch</h2>
+      <p>Happy to hear about internships, group projects, or anything I could help build.</p>
+      <ul class="contact-list">
+        <li>Email: <a href="mailto:you@example.com">you@example.com</a></li>
+        <li>GitHub: <a href="#">github.com/yourname</a></li>
+        <li>Location: Kathmandu, Nepal</li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">Built by hand with HTML and CSS. Last updated September 2026.</div>
+</footer>
+
+</body>
+</html>
